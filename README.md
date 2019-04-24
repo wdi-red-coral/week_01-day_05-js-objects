@@ -10,6 +10,9 @@ By the end of this, developers should be able to:
 
 - Store, access, and update data values in objects
 - Iterate through an object and operate on its elements
+- Define and use methods
+- Use `this` keyword to reference object
+- Model real world entities with javascript
 
 ## Preparation
 
