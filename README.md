@@ -162,7 +162,7 @@ car.topSpeed = 120
 car // { make: 'Toyota', model: 'Mustang', year: 1999, topSpeed: 120 }
 ```
 
-#### Code Along: Iterating through an Object
+### Code Along: Iterating through an Object
 
 ```js
 const car = {
