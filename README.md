@@ -12,7 +12,7 @@ By the end of this, developers should be able to:
 - Iterate through an object and operate on its elements
 - Define and use methods
 - Use `this` keyword to reference object
-- Model real world entities with javascript
+- Model real world entities with JavaScript
 
 ## Preparation
 
@@ -21,7 +21,7 @@ By the end of this, developers should be able to:
 
 ## Introduction
 
-Let’s create a person in javascript.  We could use a variable and a string...
+Let’s create a person in JavaScript.  We could use a variable and a string...
 
 ```js
 const person = "John Doe"
@@ -99,14 +99,14 @@ const person = {
 What if we want two different people.  We could do
 
 ```js
-const person = {
-     species: “human”,
+const person2 = {
+     species: "human",
      legs: 2,
      arms: 2,
-     firstName: “John”,
-     lastName: “Doe”,
-     age: 150,
-     eyeColor: “Blue”
+     firstName: "Jane",
+     lastName: "Doe",
+     age: 120,
+     eyeColor: "Green"
 };
 
 ```
@@ -135,7 +135,7 @@ const dictionary = {}
 
 ### Demo: Objects
 
-In Javascript to represent a dictionary of data with key/value pairs, we can use
+In JavaScript to represent a dictionary of data with key/value pairs, we can use
 an [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics).
 
 ```js
@@ -439,7 +439,7 @@ record of their run which contains:
 - the distance covered, in meters
 - the time taken, in seconds
 
-The program also stores information about the user (
+The program also stores information about the user
 - user name 
 - user email
 - user address
@@ -448,17 +448,6 @@ And the user can perform some calculations
 - total distance run of all runs
 - longest run distance 
 - average speed of all runs
-
-## Lab: Diagram and Model
-
-Using the description of the program above, create an entity diagram.
-
-1. Identify the entities (kinds of objects) needed in the program.
-1. Draw a box for each entity and label it with the singular, capitalized
-    entity name.
-1. Connect any entities that are related using a line.
-1. List attributes and methods of each entity separately within each entity's
-    box.
 
 ## Code Along: Write Methods With `this`
 
