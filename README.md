@@ -12,7 +12,7 @@ By the end of this, developers should be able to:
 - Iterate through an object and operate on its elements
 - Define and use methods
 - Use `this` keyword to reference object
-- Model real world entities with javascript
+- Model real world entities with JavaScript
 
 ## Preparation
 
@@ -21,7 +21,7 @@ By the end of this, developers should be able to:
 
 ## Introduction
 
-Let’s create a person in javascript.  We could use a variable and a string...
+Let’s create a person in JavaScript.  We could use a variable and a string...
 
 ```js
 const person = "John Doe"
@@ -99,14 +99,14 @@ const person = {
 What if we want two different people.  We could do
 
 ```js
-const person = {
-     species: “human”,
+const person2 = {
+     species: "human",
      legs: 2,
      arms: 2,
-     firstName: “John”,
-     lastName: “Doe”,
-     age: 150,
-     eyeColor: “Blue”
+     firstName: "Jane",
+     lastName: "Doe",
+     age: 120,
+     eyeColor: "Green"
 };
 
 ```
@@ -135,7 +135,7 @@ const dictionary = {}
 
 ### Demo: Objects
 
-In Javascript to represent a dictionary of data with key/value pairs, we can use
+In JavaScript to represent a dictionary of data with key/value pairs, we can use
 an [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics).
 
 ```js
@@ -162,7 +162,7 @@ car.topSpeed = 120
 car // { make: 'Toyota', model: 'Mustang', year: 1999, topSpeed: 120 }
 ```
 
-#### Code Along: Iterating through an Object
+### Code Along: Iterating through an Object
 
 ```js
 const car = {
@@ -182,10 +182,26 @@ for (const key in car){
 }
 ```
 
+### Lab: The Reading List
+
+Keep track of which books you read and which books you want to read!
+
+- Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
+- Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+- Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+### Lab: The Movie Database
+
+It's like IMDB, but much much smaller!
+
+- Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
+- Print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
+  - Maybe the [join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) method will be helpful here
+
 ### Code Along: Collections
 
-- create a list of words from a paragraph of text.
-- create an object with each word as a key and the word frequencies (how many times does each unique word appear in
+- Create a list of words from a paragraph of text.
+- Create an object with each word as a key and the word frequencies (how many times does each unique word appear in
   the string) as the value.
 
 ## Object Methods
@@ -439,7 +455,7 @@ record of their run which contains:
 - the distance covered, in meters
 - the time taken, in seconds
 
-The program also stores information about the user (
+The program also stores information about the user
 - user name 
 - user email
 - user address
@@ -448,17 +464,6 @@ And the user can perform some calculations
 - total distance run of all runs
 - longest run distance 
 - average speed of all runs
-
-## Lab: Diagram and Model
-
-Using the description of the program above, create an entity diagram.
-
-1. Identify the entities (kinds of objects) needed in the program.
-1. Draw a box for each entity and label it with the singular, capitalized
-    entity name.
-1. Connect any entities that are related using a line.
-1. List attributes and methods of each entity separately within each entity's
-    box.
 
 ## Code Along: Write Methods With `this`
 
